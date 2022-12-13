@@ -1,0 +1,15 @@
+.leftBtnStyle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0px;
+  color: #2e7d32;
+  font-weight: 700;
+  &:hover {
+    background: #2e7d32 !important;
+    color: #fff !important;
+  }
+}

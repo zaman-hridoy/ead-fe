@@ -1,0 +1,13 @@
+.form__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+
+  & label {
+    height: 0px !important;
+  }
+}
